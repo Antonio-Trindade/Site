@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/*rgb(166, 236, 245);*/
+body{background-color:rgb(255, 255, 255);
+    
+    }
+
+
+  p {
+      text-align: justiify;
+      text-indent: 50px;
+  }
+
+  div#interface{  /* delimitar o tamanho do campo */
+    width: 900px;
+    height: 1300px;
+    background-color: rgb(217, 230, 217);
+    margin: -20px auto 10px auto; /* sentido horario cima/direito/baixo/esquerda */
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+  /*FORMATAÇÂO DE IMAGENS COM LEGENDAS*/
+
+  figure.foto-legenda{
+      position:relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+
+  }
+
+
+figure.foto-legenda figcaption#img{
+  margin: 0pt 10pt 0pt 1pt;
+}
+
+
+  figure.foto-legenda figcaption{
+      opacity: 0;
+  
+      position: absolute;
+      top: 0px;
+      background-color  : rgba(138, 135, 135, 0.4);
+      color: white;
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    
+
+
+  }
+
+  figure.foto-legenda:hover figcaption{
+    opacity: 1;
+    transition: opacity 1s;
+
+
+  }
+
+
+  /*Fomatação do Menu*/
+
+  nav#menu {
+
+
+
+  }
+
+
+  nav#menu ul{
+    list-style: none; /* Tira os marcadores da lista */
+    text-transform:uppercase; /*Transforma tudo em maiusculo */
+    position:absolute; /* com essa posição é possivel colocar em qualquer posição da tela diferente da relativa que é somente dentro do container*/
+    top: -20px;
+    left:300px;
+
+ }
+
+ nav#menu li{
+   display:inline-block; /* Alinha os itens um ao lado do outro*/
+    background-color:rgb(190, 174, 174); /* ira criar uma cor de fundo par cada iten da lista */
+    padding:10px; /*Aumenta o espaçamento da cor das lista de itens*/
+    margin: 2px; /*Aumento o espeçao entre os itens */
+   
+    transition: background-color 1s;
+
+ }
+
+ nav#menu{
+   display:block; /* transformou em bloco para flutuar pela tela  */
+
+ }
+
+ nav#menu li:hover{ /* Ao passaar com o mouse nos itens a cor ira mudar */
+   background-color:rgb(236, 130, 130);
+
+ }
+
+
+ nav#menu a{
+   color:#000000;
+   text-decoration: none;
+
+ }
+
+
+ nav#menu a:hover{
+   color:white;
+
+ }
+
+ header#cabecalho{
+
+ margin: -20px -10px 0px -10px;
+  border-bottom:  none solid ;
+  background-color:rgb(73, 89, 122);
+  padding-left: 10px;
+  height: 200px;
+  
+ }
+
+ div#logo img{
+   position: absolute;
+   background-color:rgb(73, 89, 122);
+   
+   left: 1007px;
+   top: -1x;
+   width:200;
+  
+
+ }
+
+header#cabecalho{
+
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  color:white;
+  font-family:'Segoe UI', Tahoma, Geneva, Ver dana, sans-serif;
+  border-bottom: #a5a5a5;
+  
+
+}
+
+section#principal {
+  display:block;
+  width:600px;
+  float: left;
+  border-right: 1px solid #376f94;
+  padding-right: 15px; 
+  color:rgb(0, 0, 0);
+
+  
+
+}
+
+aside#lado {
+  display:block;
+  width:250px;
+  float:right;
+  
+}
+
+footer#rodape{
+  clear:both;
+  border-top: 1px solid #000000;
+  margin:-8pt;
+  text-align:center;
+
+}
+
+section#principal h1{
+  background: rgb(73, 89, 122);
+  margin: 10pt -12pt 0pt -6pt;
+  text-align:center;
+  padding:2pt;
+  color:rgb(250, 249, 249);
+  top: 0px;
+  font-size:24px;
+  font-family:Arial;
+}
+
+section#principal h2{
+  text-align: justify;
+  font-size:22px;
+  font-family:Arial;
+  text-align:justify;
+
+}
+
+nav#menu img#alvo{
+  display:block;
+  position:absolute;
+  right:450pt;
+  width:100px;
+
+}
+
+aside#lado h1{
+  background: rgb(73, 89, 122);
+  text-align:justify;
+  padding:2pt;
+  color:white;
+  top: 0px;
+  margin: 10pt -8pt 0pt -25pt;
+}
+
+aside#insta img{
+ 
+}
+
+
+input#btEnviar{
+  
+}
+
+
+
+  
